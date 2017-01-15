@@ -20,8 +20,8 @@ Add improved highlights for HexChat, tailored for the FuelRats.
 * Default mode of the plugin is "loud", but it will not have any defined highlights and sounds.
 * Highlight colors are specified with a number, as listed in the Settings->Preferences->Interface->Colors dialog.
 * Example:
-** /ratchat add squeak 22 bold squeak.wav
-*** this will highlight the word squeak in bold purple, and play the sound squeak.wav.
+  * /ratchat add squeak 22 bold squeak.wav
+    * this will highlight the word squeak in bold purple, and play the sound squeak.wav.
 
 ## Known bugs and issues
 * This script is only tested on Windows. Other systems may have problems
