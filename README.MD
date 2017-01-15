@@ -26,6 +26,7 @@ Add improved highlights for HexChat, tailored for the FuelRats.
 ## Known bugs and issues
 * This script is only tested on Windows. Other systems may have problems
 * Sound files MUST be .wav and placed in the sounds directory (%appdata%\Hexchat\sounds on Windows).
+* It can currently only work on single words.
 
 ## What to do if you find a bug or have a feature request
 * File an issue on GitHub and I will get to it.
