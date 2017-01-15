@@ -194,7 +194,7 @@ end
 
 local function save_config()
 
-    local f = io.open(hexchat.get_info("configdir").."\\addons\\RatChat\\config.txt", "w")
+    local f = io.open(hexchat.get_info("configdir").."\\addons\\ratchat_config.txt", "w")
     if f == nil then
         ratchat_message("Unable to open config file for writing.")
         return
@@ -231,7 +231,7 @@ local function set_mode(mode, notify)
 end
 
 local function load_config()
-    local f = io.open(hexchat.get_info("configdir").."\\addons\\RatChat\\config.txt", "r")
+    local f = io.open(hexchat.get_info("configdir").."\\addons\\ratchat_config.txt", "r")
     if f == nil then
         ratchat_message("Unable to load config file.")
         -- save_config()
