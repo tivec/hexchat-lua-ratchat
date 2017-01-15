@@ -1,0 +1,5 @@
+mode: silent
+words:
+w: r@tsignal 20 bold
+w: squeak_ 21
+channels: #ratchat #fuelrats
